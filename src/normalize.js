@@ -53,7 +53,6 @@ exports.downloadMediaFiles = async ({
                   createNodeId: generateNodeId,
                   auth,
                 })
-                console.log('@@@ fileNode', fileNode)
 
                 // If we don't have cached data, download the file
                 if (fileNode) {
@@ -68,13 +67,10 @@ exports.downloadMediaFiles = async ({
                 // Ignore
               }
             }
-            console.log('@@@ key', key)
 
             if (fileNodeID) {
               item[`${key}___NODE`] = fileNodeID
             }
-
-            console.log('@@@ item', item)
           }
         }
       }
