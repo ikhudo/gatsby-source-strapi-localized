@@ -1,4 +1,4 @@
-# gatsby-source-strapi
+# gatsby-source-strapi-localized
 
 Source plugin for pulling documents into Gatsby 2 from a Strapi API.
 
@@ -28,7 +28,7 @@ plugins: [
 ```
 
 ## Strapi content
-You need create fields like *title__en* and *title__de*
+You need create fields like `title__en` and `title__de`
 
 ## How to query
 
